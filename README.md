@@ -1,2 +1,5 @@
 # foxplug-action-walk
-Test repository for a FoxPlug Changelog Action walk-through (T530)
+
+A test repository for walking the FoxPlug Changelog Action as a new user.
+
+- Adds a dark mode toggle to the settings page.

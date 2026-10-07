@@ -1,0 +1,6 @@
+on: [push, release]
+jobs:
+  foxplug:
+    runs-on: ubuntu-latest
+    steps:
+      - { uses: OsakaSaul/foxplug-changelog-action@v1, with: { foxplug-token: "${{ secrets.FOXPLUG_TOKEN }}" } }
