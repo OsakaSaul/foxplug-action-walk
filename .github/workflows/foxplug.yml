@@ -1,4 +1,4 @@
-on: [push, release]
+on: { push: { branches: ['**'] }, release: { types: [published] } }
 jobs:
   foxplug:
     runs-on: ubuntu-latest
